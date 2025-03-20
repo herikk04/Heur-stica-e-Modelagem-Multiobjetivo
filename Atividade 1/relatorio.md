@@ -130,6 +130,7 @@ graph TD
 ## 8. Implementação Técnica Detalhada
 
 ### 8.1 Estrutura de Arquivos
+```json
 /projeto
 ├── ambiente.py
 ├── agente_reativo.py
@@ -139,7 +140,7 @@ graph TD
 └── dados_simulacao/
 ├── config_padrao.json
 └── logs_execucao/
-
+```
 
 ### 8.2 Trecho do Código BFS Local
 ```python
