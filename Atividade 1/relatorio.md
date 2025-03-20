@@ -77,6 +77,8 @@ while capacidade < máxima:
     4. Executar movimento
     5. Atualizar mapa
     6. Verificar capacidade
+ˋˋˋ
+
 ## 6. Aplicações Práticas
 
 ### 6.1 Cenários Recomendados para Cada Abordagem
