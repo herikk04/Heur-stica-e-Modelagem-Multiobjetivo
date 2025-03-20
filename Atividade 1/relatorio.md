@@ -187,7 +187,6 @@ def perfil_execucao():
 
 cProfile.run('perfil_execucao()', sort='cumtime')
 ```
-
 ##Resultado do Profiling:
 
 78% tempo em BFS local
@@ -196,9 +195,9 @@ cProfile.run('perfil_execucao()', sort='cumtime')
 
 7% tempo em lógica auxiliar
 
-#10. Guia de Otimização
+##10. Guia de Otimização
 
-##10.1 Técnicas Aplicáveis
+###10.1 Técnicas Aplicáveis
 1. cache de Caminhos
 
     Armazenar rotas pré-calculadas
