@@ -77,7 +77,7 @@ while capacidade < máxima:
     4. Executar movimento
     5. Atualizar mapa
     6. Verificar capacidade
-ˋˋˋ
+```
 
 ## 6. Aplicações Práticas
 
@@ -126,7 +126,7 @@ graph TD
     B -->|Não| D[Reativo]
     C --> E[Hardware Médio/Alto]
     D --> F[Hardware Básico]
-
+```
 ## 8. Implementação Técnica Detalhada
 
 ### 8.1 Estrutura de Arquivos
@@ -163,7 +163,7 @@ def bfs_local(self, inicio, alvo):
                 if self.grade[x][y] != -1:  # Ignora obstáculos
                     fila.append(((x,y), caminho + [(x,y)]))
     return None
-
+```
 ## 9. Análise de Desempenho Avançada
 
 ### 9.1 Benchmarks Comparativos
@@ -185,6 +185,7 @@ def perfil_execucao():
         agente.executar()
 
 cProfile.run('perfil_execucao()', sort='cumtime')
+```
 
 ##Resultado do Profiling:
 
@@ -212,7 +213,7 @@ cProfile.run('perfil_execucao()', sort='cumtime')
             fila = deque([(inicio, [], 0)])
             ...
                 if current_depth >= max_depth: continue
-
+    ```
 3. Multithreading
 
     Executar BFS em thread separada
@@ -241,7 +242,7 @@ cProfile.run('perfil_execucao()', sort='cumtime')
         "raio_percepcao": 3
     }
 }
-
+```
 #12. Trabalho Futuro
 ##12.1 Roadmap de Desenvolvimento
     Integração com algoritmos híbridos (A* + BFS)
